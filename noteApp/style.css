@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+#body {
+  display: flex;
+  flex-wrap: wrap;
+}
+#add {
+  color: white;
+  margin: auto;
+  padding: 5px 15px;
+  border-radius: 20rem;
+  font-size: larger;
+  background-color: aqua;
+  border: 0;
+}
+.note {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 2px 1px 5px 4px rgba(0, 0, 0, 0.03);
+  height: 20rem;
+  width: 20rem;
+}
+.tools {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: rgb(0, 98, 255);
+  color: white;
+}
+.tools input {
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  width: 50%;
+  background: transparent;
+  border-bottom: medium solid white;
+}
+.edit {
+  font-size: medium;
+  color: white;
+  border: 0;
+  background: transparent;
+}
+.delete {
+  font-size: medium;
+  color: white;
+  border: 0;
+  background: transparent;
+}
+.main {
+  color: black;
+  width: 20rem;
+  height: 20rem;
+  margin: 4px 3px;
+}
+.note textarea {
+  outline: none;
+  border: none;
+  width: auto;
+  margin: 4px 3px;
+  height: 20rem;
+  resize: none;
+}
+.hidden {
+  display: none;
+}
+h1 {
+  font-size: 2.3rem;
+}
+h2 {
+  font-size: 1.7rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: 1rem;
+}
