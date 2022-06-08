@@ -2,4 +2,4 @@
 
 > this is the result of learning
 
-[web](https://safarrr.github.io/results/index.html)
+[web](https://results-s.vercel.app/)
