@@ -40,7 +40,7 @@ const addCard = (user) => {
       alt="avatar"
     />
     <div class="title">
-      <h1>Name</h1>
+      <h1>${user.name}</h1>
       <h4 class="${
         user.location ? "" : "hidden"
       }" ><i class="bi bi-geo-alt-fill"></i>${user.location}</h4>
@@ -82,4 +82,4 @@ formEl.addEventListener("submit", (e) => {
   e.preventDefault();
   const data = getUser(e.target.user.value);
 });
-getUser('safarrr')
+getUser("safarrr");
