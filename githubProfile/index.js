@@ -1,22 +1,7 @@
 const formEl = document.getElementById("form");
 const contentEl = document.getElementById("content");
 const url = "https://api.github.com/users/";
-// const getUser = (name) => {
-//   if (!name) return;
-//   axios
-//     .get(url + name)
-//     .then(function (response) {
-//       // handle success
-//       console.log(response.data);
-//     })
-//     .catch(function (error) {
-//       // handle error
-//       console.log(error);
-//     });
-// };
-// getUser("safarrr");
 const addCard = (user) => {
-  console.log(user);
   const cardHtml = `<div class="card">
 <div class="wrapper-card">
   <div class="social">
